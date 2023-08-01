@@ -2,3 +2,22 @@ body{
 background-color: aquamarine;
 }
 img{width: 700px;}
+header{
+     /*cor de fundo */
+    background-color: rgb(255, 255, 255);
+    /*cor do texto */
+    color: #000000;
+    /*alinhamento do texto*/
+    text-align: center;
+    /*preenchimento*/
+    padding: 20px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    /*cor do texto */
+    color: #000000;
+    /*alinhamento do texto*/
+    text-align: center;
+    /*preenchimento*/
+    padding: 20px;
+}
