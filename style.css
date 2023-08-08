@@ -1,8 +1,9 @@
 body{
 background-color: aquamarine;
+margin: 0;
 }
 img{width: 700px;}
-header{
+header,footer{
      /*cor de fundo */
     background-color: rgb(255, 255, 255);
     /*cor do texto */
@@ -12,12 +13,20 @@ header{
     /*preenchimento*/
     padding: 20px;
 }
-footer{
-    background-color: rgb(255, 255, 255);
-    /*cor do texto */
-    color: #000000;
-    /*alinhamento do texto*/
-    text-align: center;
-    /*preenchimento*/
-    padding: 20px;
+
+.container {
+    display: flex ;
+    border-style: solid;
+    border-color: #000000;
 }
+.texto {
+    flex: 1;
+    padding: 10%;
+}
+.imagem{
+    flex: 2;
+    text-align: center;
+    padding:5%;
+    
+}
+
